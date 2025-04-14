@@ -727,7 +727,7 @@ footer::before {
 /* ▼ スマホ用（〜767px） */
 @media (max-width: 767px) {
   .groovy-text {
-    font-size: 20px;
+    font-size: 18px;
     flex-wrap: wrap;
     gap: 10px;
   }
