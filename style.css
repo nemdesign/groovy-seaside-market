@@ -244,6 +244,10 @@ body {
   animation-delay: 2.2s;
 }
 
+.groovy-text span:nth-child(24) {
+  animation-delay: 2.3s;
+}
+
 /* bottom-image */
 .bottom-image {
   background-image: url('photos/mainvisualbottom.png');
