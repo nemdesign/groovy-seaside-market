@@ -76,9 +76,18 @@ html {
   text-shadow: none;
 }
 
+.break-mobile {
+  display: none;
+}
+
+
 @media (max-width: 768px) {
   .eventinfo-text p {
     font-size: 1rem;
+  }
+
+  .break-mobile {
+    display: inline;
   }
 }
 
