@@ -1559,6 +1559,26 @@ footer::before {
   margin-bottom: 10px;
 }
 
+footer a {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #f0f0f0;  /* 明るいグレー系 */
+  color: #333;                /* 濃いグレー文字 */
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  border: 2px solid #333;     /* 枠でしっかり見せる */
+  transition: all 0.2s ease;
+}
+
+footer a:hover {
+  background-color: #333;     /* ホバー時に反転 */
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+
 
 /* ▼ スマホ用（〜767px） */
 @media (max-width: 767px) {
